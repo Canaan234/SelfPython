@@ -24,7 +24,7 @@ class BeautifulPicture():
         driverOptions.add_argument("--start-maximized")
         #driverOptions.add_argument(r"executable_path='E:\Projects\Self\SelfPython\chromedriver\chromedriver.exe'")
         #driver = webdriver.Chrome(executable_path=r'D:\phython\chromedriver.exe',user-data-dir=r'user-data-dir=C:\Users\Administrator\AppData\Local\Google\Chrome\User Data')
-        driver = webdriver.Chrome("chromedriver\chromedriver.exe",0,driverOptions)
+        driver = webdriver.Chrome(r"chromedriver\chromedriver.exe",0,driverOptions)
         driver.maximize_window()
         driver.get(self.web_url)
         #time.sleep(20)
